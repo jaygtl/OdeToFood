@@ -15,6 +15,7 @@ namespace OdeToFood.Data
                 new Restaurant{Id = 1, Name ="JayzPizza", Location= "Rotterdam", Cuisine = CuisineType.Indian},
                 new Restaurant{Id = 2, Name ="Burger King", Location= "Amsterdam", Cuisine = CuisineType.American},
                 new Restaurant{Id = 3, Name ="House Mexican", Location= "Leiden", Cuisine = CuisineType.Mexican},
+                new Restaurant{Id = 4, Name ="Lola Mexican", Location= "harlem", Cuisine = CuisineType.Indian}
             };
         }
         public IEnumerable<Restaurant> GetRestaurantsByName(string name = null)
